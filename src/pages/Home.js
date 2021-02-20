@@ -1,13 +1,36 @@
-import React from 'react';
-import Home from './pages/Home'
+import React, {Component} from 'react';
 
-class App extends React.Component {
-  render(){
-  return (
-
-    <div className="App">
-    <div id="page-wrapper">
-    <Home/>
+class Home extends React.Component {
+    render(){
+        return(
+        <div>
+    <header id="header">
+    <h1 id="logo"><a href="index.html">Landed</a></h1>
+    <nav id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li>
+          <a href="#">Layouts</a>
+          <ul>
+            <li><a href="left-sidebar.html">Left Sidebar</a></li>
+            <li><a href="right-sidebar.html">Right Sidebar</a></li>
+            <li><a href="no-sidebar.html">No Sidebar</a></li>
+            <li>
+              <a href="#">Submenu</a>
+              <ul>
+                <li><a href="#">Option 1</a></li>
+                <li><a href="#">Option 2</a></li>
+                <li><a href="#">Option 3</a></li>
+                <li><a href="#">Option 4</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+        <li><a href="elements.html">Elements</a></li>
+        <li><a href="#" className="button primary">Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
   <section id="banner">
     <div className="content">
       <header>
@@ -146,25 +169,12 @@ class App extends React.Component {
   </section>
 
 
-  <footer id="footer">
-    <ul className="icons">
-      <li><a href="#" className="icon brands alt fa-twitter"><span className="label">Twitter</span></a></li>
-      <li><a href="#" className="icon brands alt fa-facebook-f"><span className="label">Facebook</span></a></li>
-      <li><a href="#" className="icon brands alt fa-linkedin-in"><span className="label">LinkedIn</span></a></li>
-      <li><a href="#" className="icon brands alt fa-instagram"><span className="label">Instagram</span></a></li>
-      <li><a href="#" className="icon brands alt fa-github"><span className="label">GitHub</span></a></li>
-      <li><a href="#" className="icon solid alt fa-envelope"><span className="label">Email</span></a></li>
-    </ul>
-    <ul className="copyright">
-      <li>&copy; Kellik Simons </li>
-    </ul>
-  </footer>
 
-</div>
-    </div>
-  );
-}
+        </div>
+
+        )
+
+    }
 }
 
-
-export default App;
+export default Home
