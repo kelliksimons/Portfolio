@@ -3,54 +3,41 @@ import React, {Component} from 'react';
 class Home extends React.Component {
     render(){
         return(
-        <div>
+
+<div>
     <header id="header">
-    <h1 id="logo"><a href="index.html">Landed</a></h1>
+    <h1 id="logo"><a href="index.html">Kellik Simons</a></h1>
     <nav id="nav">
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li>
-          <a href="#">Layouts</a>
-          <ul>
-            <li><a href="left-sidebar.html">Left Sidebar</a></li>
-            <li><a href="right-sidebar.html">Right Sidebar</a></li>
-            <li><a href="no-sidebar.html">No Sidebar</a></li>
-            <li>
-              <a href="#">Submenu</a>
-              <ul>
-                <li><a href="#">Option 1</a></li>
-                <li><a href="#">Option 2</a></li>
-                <li><a href="#">Option 3</a></li>
-                <li><a href="#">Option 4</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li>
-        <li><a href="elements.html">Elements</a></li>
-        <li><a href="#" className="button primary">Sign Up</a></li>
+        
+        <li><a href="#four">Projects</a></li>
+        <li><a href="#" className="button primary">Contact Me</a></li>
       </ul>
     </nav>
   </header>
   <section id="banner">
     <div className="content">
       <header>
-        <h2>The future has landed</h2>
-        <p>And there are no hoverboards or flying cars.<br />
-        Just apps. Lots of mother flipping apps.</p>
+        <h2>"Jump and Grow Wings on the Way Down."< br/>
+            - Jack Canfield
+        </h2>
+        <p>Full Stack Web Developer<br />
+        Kellik Simons </p>
       </header>
-      <span className="image"><img src="images/pic01.jpg" alt="" /></span>
+      <span className="image"><img src="./assets/images/IMG_1551.jpg" alt="" /></span>
     </div>
     <a href="#one" className="goto-next scrolly">Next</a>
   </section>
 
   <section id="one" className="spotlight style1 bottom">
-    <span className="image fit main"><img src="images/pic02.jpg" alt="" /></span>
+    <span className="image fit main"><img src="./assets/images/pic09.jpg" alt="" /></span>
     <div className="content">
       <div className="container">
         <div className="row">
           <div className="col-4 col-12-medium">
             <header>
-              <h2>Odio faucibus ipsum integer consequat</h2>
+              <h2>Background</h2>
               <p>Nascetur eu nibh vestibulum amet gravida nascetur praesent</p>
             </header>
           </div>
@@ -76,10 +63,10 @@ class Home extends React.Component {
 
 
   <section id="two" className="spotlight style2 right">
-    <span className="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+    <span className="image fit main"><img src="./assets/images/pic03.jpg" alt="" /></span>
     <div className="content">
       <header>
-        <h2>Interdum amet non magna accumsan</h2>
+        <h2>Work Experience</h2>
         <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
       </header>
       <p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
@@ -91,10 +78,10 @@ class Home extends React.Component {
   </section>
 
   <section id="three" className="spotlight style3 left">
-    <span className="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+    <span className="image fit main bottom"><img src="./assets/images/pic04.jpg" alt="" /></span>
     <div className="content">
       <header>
-        <h2>Interdum felis blandit praesent sed augue</h2>
+        <h2>Education & Courses </h2>
         <p>Accumsan integer ultricies aliquam vel massa sapien phasellus</p>
       </header>
       <p>Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet augue varius tempus lobortis porttitor lorem et accumsan consequat adipiscing lorem.</p>
@@ -108,7 +95,7 @@ class Home extends React.Component {
   <section id="four" className="wrapper style1 special fade-up">
     <div className="container">
       <header className="major">
-        <h2>Accumsan sed tempus adipiscing blandit</h2>
+        <h2>Projects</h2>
         <p>Iaculis ac volutpat vis non enim gravida nisi faucibus posuere arcu consequat</p>
       </header>
       <div className="box alt">
@@ -167,10 +154,7 @@ class Home extends React.Component {
       </form>
     </div>
   </section>
-
-
-
-        </div>
+</div>
 
         )
 
