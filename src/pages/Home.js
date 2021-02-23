@@ -42,7 +42,7 @@ class Home extends React.Component {
             </header>
           </div>
           <div className="col-4 col-12-medium">
-            <p>My professionalm background is in Software Development and Project Management. I also enjoy Gaming, Traveling and Drone Videography.
+            <p>My professional background is in Software Development and Project Management. I also enjoy Gaming, Traveling and Drone Videography.
                 Web development has been my focus & passion and I enjoy learning & building using the latest technologies. </p>
           </div>
           {/* <div className="col-4 col-12-medium">
@@ -103,39 +103,41 @@ class Home extends React.Component {
         <div className="row gtr-uniform">
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-chart-area"></span>
-            <h3>Pet App</h3>
-            <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+            <h3>Pet iOS App</h3>
+            <p>This Application was created for pet owners who would like assistance with managing their new pet! <br/> 
+            The Pet App is a Manager that allows you to track your dogs diet, get tips on your certain breed and you can also <br/>
+            Attach a in-app generated QR Code dog tag to your dog to add your personal information incase your dog is missing.</p>
           </section>
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-comment"></span>
             <h3>Goals React Native App</h3>
-            <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+            <p>Coming Soon</p>
           </section>
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-flask"></span>
             <h3>Great Day Ahead React Website</h3>
-            <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+            <p>Coming Soon for my Daily Great Day Aheaders!</p>
           </section>
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-paper-plane"></span>
             <h3>React Portfolio Site</h3>
-            <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+            <p>You're looking at it!</p>
           </section>
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-file"></span>
             <h3>Smart Brain Web Application</h3>
-            <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+            <p>In Progress</p>
           </section>
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-lock"></span>
             <h3>Budget React Native App</h3>
-            <p>Feugiat accumsan lorem eu ac lorem amet accumsan donec. Blandit orci porttitor.</p>
+            <p>Coming Soon</p>
           </section>
         </div>
       </div>
       <footer className="major">
         <ul className="actions special">
-          <li><a href="#" className="button">Magna sed feugiat</a></li>
+          <li><a href="#" className="button">Contact Me</a></li>
         </ul>
       </footer>
     </div>
@@ -144,8 +146,8 @@ class Home extends React.Component {
   <section id="five" className="wrapper style2 special fade">
     <div className="container">
       <header>
-        <h2>Magna faucibus lorem diam</h2>
-        <p>Ante metus praesent faucibus ante integer id accumsan eleifend</p>
+        <h2>Contact Me </h2>
+        <p>Have any outstanding questions? Feel free to contact me!</p>
       </header>
       <form method="post" action="#" className="cta">
         <div className="row gtr-uniform gtr-50">
