@@ -137,7 +137,7 @@ class Home extends React.Component {
       </div>
       <footer className="major">
         <ul className="actions special">
-          <li><a href="#" className="button">See Repositories</a></li>
+          <li><a href="https://github.com/kelliksimons" className="button">See Repositories</a></li>
         </ul>
       </footer>
     </div>
