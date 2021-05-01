@@ -7,7 +7,7 @@ class App extends React.Component {
 
     <div className="App">
     <div id="page-wrapper">
-    <Home/>
+    <Home/> 
   
   <footer id="footer">
     <ul className="icons">

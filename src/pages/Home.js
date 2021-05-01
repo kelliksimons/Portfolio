@@ -12,7 +12,7 @@ class Home extends React.Component {
         <li><a href="index.html">Home</a></li>
         
         <li><a href="#four">Projects</a></li>
-        <li><a href="#" className="button primary">Contact Me</a></li>
+        <li><a href="#five" className="button primary">Contact Me</a></li>
       </ul>
     </nav>
   </header>
@@ -25,13 +25,13 @@ class Home extends React.Component {
         <p>Full Stack Web Developer<br />
         Kellik Simons </p>
       </header>
-      <span className="image"><img src="./assets/images/kellik.jpg" alt="" /></span>
+      <span className="image"><img src="Portfolio/assets/images/kellik.jpg" alt="" /></span>
     </div>
     <a href="#one" className="goto-next scrolly">Next</a>
   </section>
 
   <section id="one" className="spotlight style1 bottom">
-    <span className="image fit main"><img src="./assets/images/pic09.jpg" alt="" /></span>
+    <span className="image fit main"><img src="Portfolio/assets/images/pic09.jpg" alt="" /></span>
     <div className="content">
       <div className="container">
         <div className="row">
@@ -45,13 +45,13 @@ class Home extends React.Component {
             <p>My professional background is in Software Development and Project Management. I also enjoy Gaming, Traveling and Drone Videography.
                 Web development has been my focus & passion and I enjoy learning & building using the latest technologies. </p>
           </div>
-          {/* <div className="col-4 col-12-medium">
-            <p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
+          <div className="col-4 col-12-medium">
+            {/* <p>Morbi enim nascetur et placerat lorem sed iaculis neque ante
             adipiscing adipiscing metus massa. Blandit orci porttitor semper.
             Arcu phasellus tortor enim mi mi nisi praesent adipiscing. Integer
             mi sed nascetur cep aliquet augue varius tempus. Feugiat lorem
-            ipsum dolor nullam.</p>
-          </div> */}
+            ipsum dolor nullam.</p> */}
+          </div>
         </div>
       </div>
     </div>
@@ -60,7 +60,7 @@ class Home extends React.Component {
 
 
   <section id="two" className="spotlight style2 right">
-    <span className="image fit main"><img src="./assets/images/pic03.jpg" alt="" /></span>
+    <span className="image fit main"><img src="Portfolio/assets/images/pic03.jpg" alt="" /></span>
     <div className="content">
       <header>
         <h2>Professional Work Experience</h2>
@@ -79,7 +79,7 @@ class Home extends React.Component {
   </section>
 
   <section id="three" className="spotlight style3 left">
-    <span className="image fit main bottom"><img src="./assets/images/pic04.jpg" alt="" /></span>
+    <span className="image fit main bottom"><img src="Portfolio/assets/images/pic04.jpg" alt="" /></span>
     <div className="content">
       <header>
         <h2>Education & Courses </h2>
@@ -121,7 +121,7 @@ class Home extends React.Component {
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-paper-plane"></span>
             <h3>React Portfolio Site</h3>
-            <p>You're looking at it!</p>
+            <p>Constantly being updated and improved.</p>
           </section>
           <section className="col-4 col-6-medium col-12-xsmall">
             <span className="icon solid alt major fa-file"></span>
@@ -137,13 +137,14 @@ class Home extends React.Component {
       </div>
       <footer className="major">
         <ul className="actions special">
-          <li><a href="#" className="button">Contact Me</a></li>
+          <li><a href="#" className="button">See Repositories</a></li>
         </ul>
       </footer>
     </div>
   </section>
 
   <section id="five" className="wrapper style2 special fade">
+
     <div className="container">
       <header>
         <h2>Contact Me </h2>
@@ -155,7 +156,7 @@ class Home extends React.Component {
           <div className="col-4 col-12-xsmall"><input type="submit" value="Get Started" className="fit primary" /></div>
         </div>
       </form>
-    </div>
+    </div> 
   </section>
 </div>
 
